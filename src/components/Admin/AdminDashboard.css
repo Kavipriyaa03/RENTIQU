@@ -1,0 +1,159 @@
+.adminDashboard {
+  display: flex;
+  height: 200vh; /* Adjusted to fit the screen height */
+  overflow: hidden;
+  background-color: #f0f0f5; /* Light background for the dashboard */
+}
+
+.adminSidebar {
+  width: 250px;
+  background-color: #adadad; /* Darker sidebar color for contrast */
+  color: #f2f2f3; /* Lighter text color */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.adminSidebarHeader {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.adminLogo {
+  font-size: 28px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #7d7c7c, #282828, #676666, #414142);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
+
+.adminWelcomeText {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #242424;
+}
+
+.adminSidebarMenu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1; /* Allow the menu to fill available space */
+}
+
+.adminMenuItem {
+  margin: 15px 0;
+  width: 100%;
+}
+
+.adminButton {
+  width: 100%;
+  padding: 12px;
+  background-color: #545454; /* Blue button color */
+  color: #fff;
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  align-items: center;
+  justify-content: center; /* Center align text and icon */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  
+}
+
+.adminButton:hover {
+  background-color: #a7a8a9; /* Darker blue on hover */
+  transform: translateY(-2px); /*Lift effect on hover */
+}
+
+/* .adminButton:active {
+  transform: translateY(0); /* Remove lift effect on click */
+/* }  */
+
+.adminMainContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #ecf0f1; /* Slightly darker content background */
+}
+
+.adminHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #fff;
+  border-bottom: 2px solid #bdc3c7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for the header */
+}
+
+.adminHamburgerMenu {
+  font-size: 24px;
+  cursor: pointer;
+  color: #2c3e50;
+}
+
+.adminHeaderRight {
+  display: flex;
+  align-items: center;
+}
+
+.adminIcon {
+  font-size: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  color: #2c3e50;
+}
+
+.adminUserName {
+  font-size: 16px;
+  color: #2c3e50;
+}
+
+.adminContent {
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.adminContent h1 {
+  color: #333;
+}
+
+/* Logout Button Styling */
+.adminLogout {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.logoutButton {
+  background-color: #e74c3c; /* Strong red color */
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Stronger shadow for a more floating effect */
+}
+
+.logoutButton:hover {
+  background-color: #c0392b; /* Darker red on hover */
+  transform: scale(1.1); /* Slight zoom effect on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+.logoutIcon {
+  color: #fff;
+  font-size: 24px;
+}

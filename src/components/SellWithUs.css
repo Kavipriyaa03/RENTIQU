@@ -1,0 +1,162 @@
+/* General Container Styling */
+.sell {
+  background: #f8f9fa; /* Light background for the overall page */
+  padding: 50px 20px;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),  /* Light shade (white with 50% opacity) */
+      rgba(255, 255, 255, 0.5)
+    ),
+    url('https://static.vecteezy.com/system/resources/previews/039/589/951/non_2x/ai-generated-fashion-boutique-showcasing-a-variety-of-elegant-garments-for-sale-generated-by-ai-free-photo.jpg');
+  
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Container with Background Image */
+.sell-with-us-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  background: url('') no-repeat center center/cover; /* Add your image path */
+  position: relative;
+  color: #fff; /* Ensure text is readable on background */
+}
+
+/* Title Styling */
+.sell-with-us-container h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #fff; /* Adjust text color for readability */
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #ef0f44, #ff4b2b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Paragraph Styling */
+.sell-with-us-container p {
+  text-align: center;
+  color: #000; /* Set paragraph text color to black */
+  font-size: 1.1em;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* Form Styling */
+.sell-with-us-form {
+  background: rgba(0, 0, 0.9, 0.6); /* Semi-transparent background to ensure readability */
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Form Row Styling */
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px; /* Add space between columns */
+}
+
+/* Form Group Styling */
+.sell-with-us-form-group {
+  flex: 1 1 calc(50% - 20px); /* Adjust to have space between columns */
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  
+  
+}
+
+.sell-with-us-purchase-year{
+  height:50px;
+}
+
+.sell-with-us-form-group label {
+  color: #fff; /* Adjust text color for readability */
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.sell-with-us-form-group input[type="text"],
+.sell-with-us-form-group input[type="email"],
+.sell-with-us-form-group input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: border-color 0.3s;
+}
+
+.sell-with-us-form-group input[type="text"]:focus,
+.sell-with-us-form-group input[type="email"]:focus,
+.sell-with-us-form-group input[type="file"]:focus {
+  border-color: #ff416c;
+}
+
+.sell-with-us-radio-group,
+.sell-with-us-checkbox-group {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.sell-with-us-radio-group label,
+.sell-with-us-checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1em;
+  color: #eee; /* Adjust text color for readability */
+}
+
+.sell-with-us-submit-button {
+  width: 150px;
+  padding: 15px;
+  background: linear-gradient(90deg, #ff416c, #ff4b2b);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.sell-with-us-submit-button:hover {
+  background: linear-gradient(90deg, #ff4b2b, #ff416c);
+}
+
+/* Submission Message Styling */
+.submission-message {
+  text-align: center;
+  padding: 20px;
+  background: #eaf7ea;
+  color: #3c763d;
+  border: 1px solid #d6e9c6;
+  border-radius: 5px;
+}
+
+/* Ensure uniform input sizes */
+.sell-with-us-form-group input[type="text"],
+.sell-with-us-form-group input[type="email"],
+.sell-with-us-form-group input[type="file"],
+.sell-with-us-form-group .sell-with-us-radio-group,
+.sell-with-us-form-group .sell-with-us-checkbox-group {
+  box-sizing: border-box;
+}
+
+/* Footer Styling (Ensuring no overlap or interference) */
+footer {
+  margin-top: 30px;
+  padding: 20px;
+  background: #232323;
+  color: #fff;
+  text-align: center;
+  border-top: 1px solid #444;
+}
